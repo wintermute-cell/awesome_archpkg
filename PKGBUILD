@@ -1,16 +1,6 @@
-# Maintainer: Oleg Shparber <trollixx+aur@gmail.com>
-# Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
-# Contributor: Andrea Scarpino <andrea@archlinux.org>
-# Contributor: Sébastien Luttringer
-# Contributor: xduugu
-# Contributor: Ronald van Haren <ronald.archlinux.org>
-# Contributor: Vesa Kaihlavirta
-# URL: https://github.com/trollixx/aur-packages
-# Upstream: https://projects.archlinux.org/svntogit/community.git/tree/trunk?h=packages/awesome
-
 _pkgname=awesome
 pkgname=${_pkgname}-git
-pkgver=4.3.1347.ga1f58ab97
+pkgver=4.3.1550.ga43647873
 pkgrel=1
 pkgdesc='Highly configurable framework window manager'
 arch=('i686' 'x86_64')
@@ -29,7 +19,7 @@ optdepends=('rlwrap: readline support for awesome-client'
 provides=('notification-daemon' 'awesome')
 conflicts=('awesome')
 backup=('etc/xdg/awesome/rc.lua')
-source=("$pkgname::git+https://github.com/awesomeWM/awesome.git")
+source=("$pkgname::git+https://github.com/wintermute-cell/awesome.git")
 md5sums=('SKIP')
 _LUA_VER=5.4
 
